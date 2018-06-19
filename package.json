@@ -1,0 +1,31 @@
+{
+  "name": "percentage-to-text-description",
+  "version": "0.0.1",
+  "description": "Take a percentage, or three values (start, current progress and finish), and some metadata about the progress, and responds with a textual description of the current progress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deed02392/percentage-to-text-description.git"
+  },
+  "keywords": [
+    "percentage",
+    "description",
+    "text",
+    "description",
+    "progress",
+    "description",
+    "data",
+    "to",
+    "natural",
+    "language"
+  ],
+  "author": "George Hafiz <george@hafiz.uk> (https://george.hafiz.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deed02392/percentage-to-text-description/issues"
+  },
+  "homepage": "https://github.com/deed02392/percentage-to-text-description#readme"
+}
