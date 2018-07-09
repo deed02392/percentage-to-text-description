@@ -4,7 +4,7 @@
   "description": "Take a percentage, or three values (start, current progress and finish), and some metadata about the progress, and responds with a textual description of the current progress.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/deed02392/percentage-to-text-description/issues"
   },
-  "homepage": "https://github.com/deed02392/percentage-to-text-description#readme"
+  "homepage": "https://github.com/deed02392/percentage-to-text-description#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.0.1",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "mocha": "^5.2.0"
+  }
 }
